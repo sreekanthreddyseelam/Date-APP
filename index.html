@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Plan the perfect date: search and choose your entertainment, and a place to get food and drinks before or after and let Perfect Date take care of the details!" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="stylesheet" href="main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+    <title>Perfect Date App</title>
+  </head>
+
+  <body>
+    <navbar role="navbar">
+      <header class="nav-header">
+        <h1 class="home-logo">perfect date</h1>
+      </header>
+      <div class="inner-nav">
+        <div class="nav-new new">
+          <i class="fas fa-plus-circle"></i>
+          <span class="new-txt">New Date</span>
+        </div>
+        <div class="nav-back back">
+          <i class="fas fa-arrow-circle-left navi-btn"></i>
+          <span class="back-txt">Back</span>
+        </div>
+        <div class="nav-forward forward">
+          <span class="foward-txt">Forward</span>
+          <i class="fas fa-arrow-circle-right navi-btn"></i>
+        </div>
+      </div>
+
+      <div class="hamburger dropdown-menu">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </navbar>
+
+    <div class="menu">
+      <div class="home navi-btn">+ New Date</div>
+      <div class="navi">
+        <div class="back navi-btn">
+          <i class="fas fa-arrow-circle-left navi-btn"></i>
+          <span class="back-txt">Back</span>
+        </div>
+        <div class="forward navi-btn">
+          <span class="foward-txt">Forward</span>
+          <i class="fas fa-arrow-circle-right navi-btn"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="spinner-bg" role="spinner">
+      <div class="lds-spinner">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+
+    <main role="main"></main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
